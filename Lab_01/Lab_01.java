@@ -1,19 +1,39 @@
-public class Test
+public class Lab_01
 {
 	public static void main(String [] args)
 	{
-		for(int i = 0; i<2; i++)
-		{
-			System.out.println("     #  ####  #    #");
-			System.out.println("     # #    # ##   #");
-			System.out.println("     # #    # # #  #");
-			System.out.println("     # #    # #  # #");
-			System.out.println("#    # #    # #   ##");
-			System.out.println(" ####   ####  #    #");
-			
-			System.out.println("|\\---/|");
-			System.out.println("| o_o |");
-			System.out.println(" \\_^_/ ");
-		}
+		/*
+		System.out.println("     #  ####  #    #");
+		System.out.println("     # #    # ##   #");
+		System.out.println("     # #    # # #  #");
+		System.out.println("     # #    # #  # #");
+		System.out.println("#    # #    # #   ##");
+		System.out.println(" ####   ####  #    #");
+		*/
+		
+		/*
+		System.out.println("|\\---/|");
+		System.out.println("| o_o |");
+		System.out.println(" \\_^_/ ");
+		*/
+		
+		System.out.println("     /\\_____/\\");
+		System.out.println("    /  o   o  \\");
+		System.out.println("   ( ==  ^  == )");
+		System.out.println("    )         (");
+		System.out.println("   (           )");
+		System.out.println("  ( (  )   (  ) )");
+		System.out.println(" (__(__)___(__)__)");
+	
+		/*   
+			     /\_____/\
+			    /  o   o  \
+			   ( ==  ^  == )
+			    )         (
+			   (           )
+			  ( (  )   (  ) )
+		     (__(__)___(__)__)
+		*/
+	
 	}
 }
