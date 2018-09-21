@@ -11,15 +11,15 @@ public class Interest
 		rate = inputScanner.nextDouble() / 100;
 		print("Please enter the principal amount.");
 		principal = inputScanner.nextDouble();
-		print("Please enter the life time of the load in years.");
+		print("Please enter the life time of the loan in years.");
 		time = inputScanner.nextDouble();
-		print("Please enter the number of times the load is compounded per year");
+		print("Please enter the number of times the loan is compounded per year.");
 		number = inputScanner.nextDouble();
 		
 		
 		payment = calcBill(rate,principal,number,time);
-		System.out.print("The total payment will be: ");
-		printDollars(payment);
+		System.out.print("Your monthly payment will be: ");
+		printDollars(payment/12);
 		
 	}
 	
@@ -38,6 +38,6 @@ public class Interest
 	public static void printDollars(double input)
 	{
 		System.out.printf("$%.2f", input);
-		System.out.println();
+    System.out.println();
 	}
 }
