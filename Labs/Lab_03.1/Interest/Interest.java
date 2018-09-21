@@ -19,7 +19,7 @@ public class Interest
 		
 		payment = calcBill(rate,principal,number,time);
 		System.out.print("Your monthly payment will be: ");
-		printDollars(payment/12);
+		printDollars(payment/time/12);
 		
 	}
 	
@@ -38,6 +38,6 @@ public class Interest
 	public static void printDollars(double input)
 	{
 		System.out.printf("$%.2f", input);
-    System.out.println();
+		System.out.println();
 	}
 }
