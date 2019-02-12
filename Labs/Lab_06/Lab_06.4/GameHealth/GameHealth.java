@@ -4,7 +4,7 @@ public class GameHealth
 {
 	static String[] health;
 	
-	static int HEALTH_LOAD = 6;
+	static final int HEALTH_LOAD = 6;
 	static int healthCount;
 	
 	public static void main(String[]args)
